@@ -28,3 +28,114 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+h1 {
+    text-align: center;
+}
+
+#day-input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#greeting-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#type-season {
+    width: 300px;
+    height: 200px;
+    border-radius: 75px;
+    border: 2px solid yellow;
+}
+
+#greeting-display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 312px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.right-inputs {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 15px;
+}
+
+.left-inputs {
+    display: flex;
+    flex-direction: row; 
+    padding-top: 15px;   
+}
+
+#seasonWish {
+    display: flex;
+    align-items: center;
+}
+
+#greeting-card-image {
+    border: 1px solid black;
+    max-width: 312px;
+}
+
+textarea {
+    width: 250px;
+    height: 50px;
+}
+
+#season-input {
+    width: 200px;
+    margin-right: 5px;
+}
+
+#theme {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.summer {
+    background: linear-gradient(135deg, yellow, white, rgb(15, 99, 189), lightblue, rgb(205, 214, 159), rgb(180, 164, 90));
+}
+
+.winter {
+    background: linear-gradient(midnightblue, white, rgb(41, 180, 255), white);
+}
+
+.fall {
+    background: linear-gradient(90deg, yellow, orange, red);
+}
+
+.spring {
+    background: linear-gradient(45deg, green, pink, purple, rgb(182, 0, 76), yellow)
+}
+
+.windy {
+    background: radial-gradient(rgb(112, 112, 126), rgb(187, 187, 187), rgba(173, 252, 215, 0.484));
+}
+
+.rain {
+    background: radial-gradient(blue, rgb(126, 164, 183), rgb(116, 116, 170));
+}
+
+.snow {
+    background: radial-gradient(rgb(79, 79, 79), rgb(255, 255, 255), rgb(147, 147, 171));
+}
+
+#export-button {
+    margin-top: 25px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 7px 1px black;
+}

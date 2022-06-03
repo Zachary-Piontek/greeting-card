@@ -1,3 +1,14 @@
+
+#wireframe-layout
+
+--Event List--
+    // input name for text
+    // display text from textarea for image
+    // using events to change theme and image
+
+![greeting-card](./assets/Wireframe-Template-GreetingCard.png)
+
+
 ## The Golden Rule:
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
@@ -9,6 +20,9 @@
 ## Making a plan
 
 1. Make a drawing of your app. **Simple "wireframes"**
+
+
+
 1. Once you have a drawing, **name the HTML elements** you'll need to realize your vision**
 1. For each HTML element ask: **Why do I need this?**
     - Does this element need **static content**, or is the content **dynamic state**?
