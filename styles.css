@@ -88,7 +88,6 @@ h1 {
 
 #greeting-card-image {
     border: 1px solid black;
-    background-color: rgb(240, 255, 131);
     max-width: 312px;
 }
 
@@ -100,4 +99,26 @@ textarea {
 #season-input {
     width: 200px;
     margin-right: 5px;
+}
+
+#theme {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.summer {
+    background: linear-gradient(135deg, yellow, white, rgb(15, 99, 189), lightblue, rgb(205, 214, 159), rgb(180, 164, 90));
+}
+
+.winter {
+    background: linear-gradient(midnightblue, white, rgb(41, 180, 255), white);
+}
+
+.fall {
+    background: linear-gradient(90deg, yellow, orange, red);
+}
+
+.spring {
+    background: linear-gradient(45deg, green, pink, purple, rgb(182, 0, 76), yellow)
 }

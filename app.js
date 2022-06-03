@@ -21,3 +21,10 @@ const typeSeason = document.getElementById('type-season');
 dogSelect.addEventListener('change', () => {
     typeSeason.src = dogSelect.value;
 });
+
+const themeSelect = document.getElementById('theme-select');
+const greetingCardImage = document.getElementById('greeting-card-image');
+themeSelect.addEventListener('change', () => {
+    greetingCardImage.classList.value = '';
+    greetingCardImage.classList.add(themeSelect.value);
+});

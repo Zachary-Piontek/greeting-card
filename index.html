@@ -18,7 +18,7 @@
     <main>
         <h1>Seasons Greeting Card</h1>
             <div id="greeting-container">
-                <section id="greeting-card-image">
+                <section id="greeting-card-image" class="summer">
                     <h3 id="day-input">It's A Beautiful Day!</h3>
                     <img id="type-season" src="assets/puppy-hot-weather.jpeg">
                     <p id="greeting-display">Is it hot up in Portland, Oregon too?</p>
@@ -39,6 +39,13 @@
                 <section class="right-inputs">
                     <label for="season-wish-textarea" id="seasonWish">--Season wished for</label>
                     <textarea id="season-wish-textarea">Is it hot up in Portland, Oregon too?</textarea>
+                    <label for="theme-select" id="theme">--Theme</label>
+                    <select id="theme-select">
+                        <option value="summer">Summer</option>
+                        <option value="winter">Winter</option>
+                        <option value="fall">Fall</option>
+                        <option value="spring">Spring</option>
+                    </select>
                 </section>
             </div>
     </main>
