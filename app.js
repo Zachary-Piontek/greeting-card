@@ -2,5 +2,13 @@
 
 // set event listeners
     // get info from user input
+
+const seasonInput = document.getElementById('season-input');
+const dayInput = document.getElementById('day-input');
+seasonInput.addEventListener('input', () => {
+    dayInput.textContent = seasonInput.value;
+});
+
+
     // use user input to update state
     // update DOM to reflect the new state
