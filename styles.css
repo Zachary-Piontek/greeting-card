@@ -122,6 +122,18 @@ textarea {
     background: linear-gradient(45deg, green, pink, purple, rgb(182, 0, 76), yellow)
 }
 
+.windy {
+    background: radial-gradient(rgb(112, 112, 126), rgb(187, 187, 187), rgba(173, 252, 215, 0.484));
+}
+
+.rain {
+    background: radial-gradient(blue, rgb(126, 164, 183), rgb(116, 116, 170));
+}
+
+.snow {
+    background: radial-gradient(rgb(79, 79, 79), rgb(255, 255, 255), rgb(147, 147, 171));
+}
+
 #export-button {
     margin-top: 25px;
     border-radius: 25px;
