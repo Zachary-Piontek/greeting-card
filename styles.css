@@ -55,7 +55,9 @@ h1 {
 #greeting-display {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    max-width: 312px;
+    overflow: hidden;
 }
 
 #inputs {
@@ -87,6 +89,7 @@ h1 {
 #greeting-card-image {
     border: 1px solid black;
     background-color: rgb(240, 255, 131);
+    max-width: 312px;
 }
 
 textarea {
@@ -96,4 +99,5 @@ textarea {
 
 #season-input {
     width: 200px;
+    margin-right: 5px;
 }

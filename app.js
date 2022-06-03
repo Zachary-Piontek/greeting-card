@@ -16,3 +16,8 @@ seasonWishTextarea.addEventListener('input', () => {
 });
     // use user input to update state
     // update DOM to reflect the new state
+const dogSelect = document.getElementById('dog-select');
+const typeSeason = document.getElementById('type-season');
+dogSelect.addEventListener('change', () => {
+    typeSeason.src = dogSelect.value;
+});
