@@ -9,6 +9,10 @@ seasonInput.addEventListener('input', () => {
     dayInput.textContent = seasonInput.value;
 });
 
-
+const seasonWishTextarea = document.getElementById('season-wish-textarea');
+const greetingDisplay = document.getElementById('greeting-display');
+seasonWishTextarea.addEventListener('input', () => {
+    greetingDisplay.textContent = seasonWishTextarea.value;
+});
     // use user input to update state
     // update DOM to reflect the new state
