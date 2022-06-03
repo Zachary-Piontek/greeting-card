@@ -28,3 +28,13 @@ themeSelect.addEventListener('change', () => {
     greetingCardImage.classList.value = '';
     greetingCardImage.classList.add(themeSelect.value);
 });
+
+const exportButton = document.getElementById('export-button');
+exportButton.addEventListener('click', async() => {
+    // eslint-disable-next-line no-undef
+    const dataUrl = await domtoimage.toPng(greetingCardImage);
+    const link = document.createElement('a');
+    link.download = seasonInput.value + '.png';
+    link.href = dataUrl;
+    link.click();
+});
